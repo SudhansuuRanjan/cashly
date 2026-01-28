@@ -1,0 +1,17 @@
+{
+  "name": "cf-hono-waitlist",
+  "main": "src/server/index.ts",
+  "compatibility_date": "2025-10-11",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "finflow_local_db",
+      "database_id": "123",
+      "migrations_dir": "src/server/db/migrations"
+    }
+  ]
+}
